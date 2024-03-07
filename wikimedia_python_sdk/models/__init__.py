@@ -1,0 +1,61 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from wikimedia_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from wikimedia_python_sdk.model.absolute_bytes_difference import AbsoluteBytesDifference
+from wikimedia_python_sdk.model.absolute_bytes_difference_per_editor import AbsoluteBytesDifferencePerEditor
+from wikimedia_python_sdk.model.absolute_bytes_difference_per_page import AbsoluteBytesDifferencePerPage
+from wikimedia_python_sdk.model.availability import Availability
+from wikimedia_python_sdk.model.availability_in_the_news import AvailabilityInTheNews
+from wikimedia_python_sdk.model.availability_most_read import AvailabilityMostRead
+from wikimedia_python_sdk.model.availability_on_this_day import AvailabilityOnThisDay
+from wikimedia_python_sdk.model.availability_picture_of_the_day import AvailabilityPictureOfTheDay
+from wikimedia_python_sdk.model.availability_todays_featured_article import AvailabilityTodaysFeaturedArticle
+from wikimedia_python_sdk.model.by_country import ByCountry
+from wikimedia_python_sdk.model.cx_dict import CxDict
+from wikimedia_python_sdk.model.cx_dict_translations import CxDictTranslations
+from wikimedia_python_sdk.model.cx_dict_translations_item import CxDictTranslationsItem
+from wikimedia_python_sdk.model.cx_languagepairs import CxLanguagepairs
+from wikimedia_python_sdk.model.cx_languagepairs_source import CxLanguagepairsSource
+from wikimedia_python_sdk.model.cx_languagepairs_target import CxLanguagepairsTarget
+from wikimedia_python_sdk.model.cx_list_tools import CxListTools
+from wikimedia_python_sdk.model.cx_list_tools_tools import CxListToolsTools
+from wikimedia_python_sdk.model.cx_mt import CxMt
+from wikimedia_python_sdk.model.edited_pages import EditedPages
+from wikimedia_python_sdk.model.editors import Editors
+from wikimedia_python_sdk.model.edits import Edits
+from wikimedia_python_sdk.model.edits_per_editor import EditsPerEditor
+from wikimedia_python_sdk.model.edits_per_page import EditsPerPage
+from wikimedia_python_sdk.model.listing import Listing
+from wikimedia_python_sdk.model.math_check_formula_request import MathCheckFormulaRequest
+from wikimedia_python_sdk.model.net_bytes_difference import NetBytesDifference
+from wikimedia_python_sdk.model.net_bytes_difference_per_editor import NetBytesDifferencePerEditor
+from wikimedia_python_sdk.model.net_bytes_difference_per_page import NetBytesDifferencePerPage
+from wikimedia_python_sdk.model.new_pages import NewPages
+from wikimedia_python_sdk.model.new_registered_users import NewRegisteredUsers
+from wikimedia_python_sdk.model.originalimage import Originalimage
+from wikimedia_python_sdk.model.pagecounts_project import PagecountsProject
+from wikimedia_python_sdk.model.pageview_article import PageviewArticle
+from wikimedia_python_sdk.model.pageview_project import PageviewProject
+from wikimedia_python_sdk.model.pageview_tops import PageviewTops
+from wikimedia_python_sdk.model.problem import Problem
+from wikimedia_python_sdk.model.summary import Summary
+from wikimedia_python_sdk.model.summary_coordinates import SummaryCoordinates
+from wikimedia_python_sdk.model.thumbnail import Thumbnail
+from wikimedia_python_sdk.model.top_edited_pages_by_abs_bytes_diff import TopEditedPagesByAbsBytesDiff
+from wikimedia_python_sdk.model.top_edited_pages_by_edits import TopEditedPagesByEdits
+from wikimedia_python_sdk.model.top_edited_pages_by_net_bytes_diff import TopEditedPagesByNetBytesDiff
+from wikimedia_python_sdk.model.top_editors_by_abs_bytes_diff import TopEditorsByAbsBytesDiff
+from wikimedia_python_sdk.model.top_editors_by_edits import TopEditorsByEdits
+from wikimedia_python_sdk.model.top_editors_by_net_bytes_diff import TopEditorsByNetBytesDiff
+from wikimedia_python_sdk.model.transform_content_machine_translate_request import TransformContentMachineTranslateRequest
+from wikimedia_python_sdk.model.unique_devices import UniqueDevices
